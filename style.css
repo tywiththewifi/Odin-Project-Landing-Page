@@ -10,7 +10,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0px 96px;
+    padding: 0px 300px;
 }
 
 ul {
@@ -32,10 +32,11 @@ a { text-decoration: none;
 
 .first {
     display: flex;
-    padding: 48px 96px;
+    padding: 48px 300px;
     background: #1F2937;
-    gap: 64px;
+    gap: 192px;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .container {
@@ -92,19 +93,19 @@ h2 {
 
 .container2 {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    gap: 24px;
+    gap: 48px;
     text-align: center;
 }
 
 
 
 .cell img {
-    height: 100px;
-    width: 100px;
+    height: 200px;
+    width: 200px;
     border: 4px solid #3882F6;
     border-radius: 8px;
-
 }
 
 .cell {
@@ -120,7 +121,7 @@ h2 {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 24px 220px;
+    padding: 24px 300px;
     background: #e5e7eb;
     height: 300px;
 }
@@ -140,7 +141,7 @@ h3 {
 }
 
 .fourth {
-    padding: 96px 180px;
+    padding: 96px 300px;
 }
 
 .modal {
